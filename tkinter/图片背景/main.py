@@ -33,6 +33,7 @@ label.place(relwidth=1, relheight=1)  # 让Label填充整个窗口
 
 root.resizable(False, False)
 pywinstyles.apply_style(root, "dark")
+# 样式："dark", "mica", "aero", "transparent", "acrylic", "win7","inverse", "popup", "native", "optimised", "light"
 root.shutdown(ask)
 root.mainloop()
 
